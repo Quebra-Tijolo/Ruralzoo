@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruralzoo | Consultoria Agronômica e Zootécnica</title>
+    
+    <!-- CONEXÃO COM A PASTA DE CONFIGURAÇÃO VISUAL -->
+    <link rel="stylesheet" href="Ruralzoo.css">
+    
+    <!-- Ícones externos para dar um acabamento profissional -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cabeçalho / Navegação -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i> Rural<span>zoo</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero (Banner Principal) -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h1>Produtividade e Cuidado
+                 para o seu Negócio Rural</h1>
+            <p>Otimizamos sua produção animal e gestão de pastagens com técnicas e planejamento estratégico.</p>
+            <a href="#contato" class="btn-main">Suporte e Orientações</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Transformando Propriedades Rurais</h2>
+                <p>A Ruralzoo nasceu com o propósito de levar inovação, ciência e gestão prática para o campo. Unimos o conhecimento técnico em zootecnia e manejo sustentável para garantir que sua propriedade alcance o teto produtivo com rentabilidade.</p>
+                <p>Seja no manejo de rebanhos, nutrição de precisão ou na recuperação de pastagens, nossa equipe entrega soluções sob medida para a realidade do produtor.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <h3>+30</h3>
+                    <p>Fazendas Atendidas</p>
+                </div>
+                <div class="stat-card">
+                    <h3>40%</h3>
+                    <p>Média de Aumento em Lucratividade</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços de Consultoria</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-cow service-icon"></i>
+                    <h3>Manejo Nutricional e de Rebanho</h3>
+                    <p>Formulação de dietas de precisão, planejamento de cria, recria e engorda para maximizar o ganho de peso e conversão alimentar.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-seedling service-icon"></i>
+                    <h3>Gestão de Pastagens</h3>
+                    <p>Planejamento de pastejo rotacionado, análise de solo, adubação estratégica e reforma de pastos degradados.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-chart-line service-icon"></i>
+                    <h3>Planejamento e Controle</h3>
+                    <p>Auditoria de processos, diagnóstico produtivo e implantação de softwares de gestão para controle de custos na fazenda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Fale com um Especialista</h2>
+            <p class="contact-subtitle">Preencha o formulário abaixo e nossa equipe entrará em contato para entender o seu desafio.</p>
+            
+            <div class="contact-wrapper">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" required placeholder="Ex: João Silva">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required placeholder="joao@fazenda.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Fale resumidamente sobre sua propriedade ou desafio</label>
+                        <textarea id="message" rows="5" required placeholder="Ex: Preciso melhorar a taxa de lotação dos meus pastos no período da seca..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Ruralzoo Consultoria Rural. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/carlos.daniel134?igsh=ZDJ6eWxjMGJwNDF5"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-daniel-botelho-alves-737b261b4?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONEXÃO COM A PASTA DE DINÂMICA E COMPORTAMENTO -->
+    <script src="Ruralzoo.js"></script>
+</body>
+</html>
